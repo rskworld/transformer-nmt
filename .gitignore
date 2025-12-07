@@ -1,5 +1,5 @@
 # Python
-__pycache__/
+# __pycache__/  # Commented out - user wants to include this
 *.py[cod]
 *$py.class
 *.so
@@ -24,7 +24,7 @@ wheels/
 *.egg
 
 # Models and Data
-models/
+# models/  # Commented out - user wants to include this folder
 *.pt
 *.pth
 *.pkl

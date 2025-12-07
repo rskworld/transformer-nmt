@@ -1,0 +1,25 @@
+# Example Parallel Corpus Data
+# Format: source_sentence ||| target_sentence
+# Author: Molla Samser (https://rskworld.in)
+
+hello world ||| bonjour le monde
+how are you ||| comment allez vous
+good morning ||| bonjour
+thank you ||| merci
+please ||| s il vous plait
+yes ||| oui
+no ||| non
+i love you ||| je t aime
+goodbye ||| au revoir
+see you later ||| a bientot
+what is your name ||| quel est votre nom
+my name is john ||| mon nom est jean
+nice to meet you ||| ravi de vous rencontrer
+where are you from ||| d ou venez vous
+i am from paris ||| je viens de paris
+how old are you ||| quel age avez vous
+i am twenty years old ||| j ai vingt ans
+what time is it ||| quelle heure est il
+it is three o clock ||| il est trois heures
+have a nice day ||| passez une bonne journee
+

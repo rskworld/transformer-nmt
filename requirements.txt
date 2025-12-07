@@ -1,0 +1,18 @@
+# Requirements for Transformer-based Neural Machine Translation
+# Author: Molla Samser
+# Website: https://rskworld.in
+# Email: help@rskworld.in, support@rskworld.in
+# Phone: +91 93305 39277
+
+torch>=2.0.0
+numpy>=1.24.0
+tqdm>=4.65.0
+matplotlib>=3.7.0
+jupyter>=1.0.0
+notebook>=6.5.0
+ipykernel>=6.22.0
+flask>=2.3.0
+flask-cors>=4.0.0
+nltk>=3.8.0
+pytest>=7.0.0
+

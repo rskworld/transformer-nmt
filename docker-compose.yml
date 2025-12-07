@@ -1,0 +1,22 @@
+# Docker Compose configuration for Transformer NMT
+# Author: Molla Samser
+# Website: https://rskworld.in
+# Email: help@rskworld.in, support@rskworld.in
+# Phone: +91 93305 39277
+
+version: '3.8'
+
+services:
+  transformer-nmt-api:
+    build: .
+    container_name: transformer-nmt-api
+    ports:
+      - "5000:5000"
+    volumes:
+      - ./models:/app/models
+      - ./data:/app/data
+    environment:
+      - PYTHONUNBUFFERED=1
+    command: python api_server.py --model_path models/best_model.pt --port 5000
+    restart: unless-stopped
+
